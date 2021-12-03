@@ -56,6 +56,7 @@
     color: var(--yellow);
     font-size: 1.5em;
 }
+
 /*navbar*/
 
 .primary-nav .nav-link
@@ -664,6 +665,22 @@ h5
     color: var(--pinkp4);
     font-size: 1.3em;
     text-shadow: var(--magentap4) 0px 0px 3px;
+}
+
+
+#modal2 .fa-bars
+{
+    color: var(--pinkp2);
+}
+
+#modal3 .fa-bars
+{
+    color: var(--beige)!important;
+}
+
+#modal3 .fa-bars
+{
+    color: var(--beige);
 }
 
 .mt
