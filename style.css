@@ -43,6 +43,7 @@
 }
 
 
+
 /*index*/
 
 .header
@@ -145,6 +146,14 @@ color: var(--beige);
     
 }
 
+#projects2 .project-card-img:hover, .project-card-img:focus
+{
+    cursor: pointer;
+    filter:saturate(120%);
+    border: 5px solid var(--purple)!important;
+    
+}
+
 .about
 {
     filter:saturate(120%);
@@ -179,6 +188,12 @@ color: var(--beige);
 {
   font-size: 1.2em;
   color: var(--purple);
+
+}
+
+.circle-btn:hover
+{
+  background-color: var(--pink);
 
 }
 
@@ -651,15 +666,21 @@ h5
     text-shadow: var(--magentap4) 0px 0px 3px;
 }
 
+.mt
+{
+    margin-top: 10em;
+}
 
 /*modal1*/
 
 
 
-
-
 @media (max-width:576px)
 {
+    .mt
+{
+    margin-top: 0em;
+}
     .h1-modal
     {
         height: 260px;
@@ -669,6 +690,10 @@ h5
 
 @media (max-width:1000px)
 {
+    .mt
+    {
+        margin-top: 0em;
+    }
     
 /*navbar*/
 
@@ -699,6 +724,10 @@ h5
 
 @media (max-width:768px)
 {
+    .mt
+    {
+        margin-top: 0em;
+    }
 
 
     .section1-p1
@@ -785,6 +814,10 @@ h5
 
 @media (max-width:768px)
 {
+    .mt
+    {
+        margin-top: 0em;
+    }
     .secondary-nav
     {
         border-radius: 1em;
@@ -859,6 +892,10 @@ h5
 
 @media (max-width:768px)
 {
+    .mt
+    {
+        margin-top: 0em;
+    }
     h2
     {
         font-size: 3em;
@@ -877,6 +914,11 @@ h5
 
 @media (max-width:1400px)
 {
+    .mt
+    {
+        margin-top: 0em;
+    }
+
     .about-section
     {
         height: auto !important;
