@@ -1,0 +1,943 @@
+/*colores*/
+
+:root
+{
+    /*home*/
+    --purple: #8E7ED6;
+    --violet: #6148D3;
+    /*
+    --pink: #FBE3D7;
+    */
+    --pink:#FBE3D7;
+    --magenta:#E9B7B2;
+    --beige: #FBF3E9;
+    --yellow: rgb(255, 211, 117);
+
+
+    /*p1*/
+
+    --pinkp1:#CF9684;
+    --bluep1:#A8BDC6;
+    --indigop1:#B2BBCF;
+
+    /*p2*/
+
+    --pinkp2:#FF9999;
+    --yellowp2:#FFD066;
+    --aquap2:#8BCFCE;
+    --violetp2: #783ECF;
+
+    /*p3*/
+    --bluep3:#2e31ff; 
+    --blackp3:#0f0f0f; 
+    --redp3:#cb1e4b; 
+
+    /*p4*/
+
+    --blackp4:#2C282A;
+    --pinkp4:#FFD3FF;
+    --aquap4:#72F0FC;
+    --magentap4:#F40FFF;
+
+
+}
+
+
+/*index*/
+
+.header
+{
+    background: linear-gradient(180deg,var(--violet), var(--purple));
+}
+
+.fa-bars
+{
+    color: var(--yellow);
+    font-size: 1.5em;
+}
+/*navbar*/
+
+.primary-nav .nav-link
+{
+    border-radius: 1em;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.3em;
+    color: var(--yellow);
+    text-shadow: 0px 1px 8px var(--violet);
+}
+
+.dropdown-item
+{
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1em;
+    color: var(--purple);
+}
+
+.primary-nav .nav-link:hover
+{
+    color: var(--pink);
+}
+
+.primary-nav .dropdown-menu
+{
+    background-color: var(--pink);
+    border: none;
+    border-radius: 0.6em;
+}
+
+.primary-nav .navbar-nav>.active>a {
+    background-color: var(--purple);
+    color: var(--pink);
+    border-radius: 1em;
+    text-shadow: 0px 1px 8px rgba(255, 255, 255, 0);
+    box-shadow: 0px 1px 8px var(--violet);
+}
+
+.primary-nav .dropdown-item:hover
+{
+background-color: var(--purple);
+color: var(--beige);
+}
+
+.secondary-nav
+{
+    background-color: var(--yellow);
+    border-radius: 2em;
+    box-shadow: 0px 2px 10px var(--violet);
+}
+
+.secondary-nav .nav-link
+{
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.2em;
+    color: var(--purple);
+}
+
+
+
+/*about*/
+
+.contacto i
+{
+    color: var(--violet);
+    font-size: 1.4em;
+}
+
+/*projects*/
+.project-card
+{
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--purple);
+    border:none;
+}
+
+.project-card-img:hover, .project-card-img:focus
+{
+    cursor: pointer;
+    filter:saturate(120%);
+    border: 5px solid var(--pink)!important;
+    
+}
+
+.about
+{
+    filter:saturate(120%);
+}
+
+.project-card-img
+{
+    height: auto;
+    border: 5px solid var(--magenta)!important;
+    border-radius: 3em;
+    filter:saturate(120%);
+}
+
+.vistas
+{
+    filter:saturate(140%);
+}
+
+/*footer*/
+.footer
+{
+    background: linear-gradient(180deg,var(--violet), var(--purple));
+}
+
+.circle-btn
+{
+    border-radius: 100%;
+
+}
+
+.circle-btn i
+{
+  font-size: 1.2em;
+  color: var(--purple);
+
+}
+
+
+
+/*globaoles*/
+
+h2
+{
+    font-family: 'all-round-gothic', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+    /*text-shadow: 0px 1px 3px var(--purple);*/
+}
+
+p
+{
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1em;
+}
+
+h3
+{
+    font-family: 'all-round-gothic', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+}
+
+h4
+{
+    font-family: 'all-round-gothic', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+}
+h5
+{
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+/*colores*/
+
+.color-pink
+{
+    color: var(--pink);
+}
+
+.color-violet
+{
+    color: var(--violet);
+}
+
+.color-purple
+{
+    color: var(--purple);
+}
+
+.color-yellow
+{
+    color: var(--yellow);
+}
+
+.color-beige
+{
+    color: var(--beige);
+}
+
+.color-magenta
+{
+    color: var(--magenta);
+}
+
+.bg-color-pink
+{
+    background-color: var(--pink);
+}
+
+.bg-color-violet
+{
+    background-color: var(--violet);
+}
+
+.bg-color-purple
+{
+    background-color: var(--purple);
+}
+
+.bg-color-yellow
+{
+    background-color: var(--yellow);
+}
+
+.bg-color-beige
+{
+    background-color: var(--beige);
+}
+
+.bg-color-magenta
+{
+    background-color: var(--magenta);
+}
+
+/*p1*/
+.color-pinkp1
+{
+    color: var(--pinkp1);
+}
+
+.color-bluep1
+{
+    color: var(--bluep1);
+}
+
+.color-indigop1
+{
+    color: var(--indigop1);
+}
+
+.bg-color-pinkp1
+{
+    background-color: var(--pink1);
+}
+
+.bg-color-bluep1
+{
+    background-color: var(--bluep1);
+}
+
+.bg-color-indigop1
+{
+    background-color: var(--indigop1);
+}
+
+/*P2*/
+
+.color-pinkp2
+{
+    color: var(--pinkp2);
+}
+
+.color-violetp2
+{
+    color: var(--violetp2);
+}
+.color-aquap2
+{
+    color: var(--aquap2);
+}
+.color-yellowp2
+{
+    color: var(--yellowp2);
+}
+
+.bg-color-pinkp2
+{
+    background-color: var(--pinkp2);
+}
+
+.bg-color-violetp2
+{
+    background-color: var(--violetp2);
+}
+.bg-color-aquap2
+{
+    background-color: var(--aquap2);
+}
+.bg-color-yellowp2
+{
+    background-color: var(--yellowp2);
+}
+
+/*p3*/
+.color-blackp3
+{
+    color: var(--blackp3);
+}
+.color-redp3
+{
+    color: var(--redp3);
+}
+.color-bluep3
+{
+    color: var(--bluep3);
+}
+.bg-color-blackp3
+{
+    background-color: var(--blackp3);
+}
+.bg-color-redp3
+{
+    background-color: var(--redp3);
+}
+.bg-color-bluep3
+{
+    background-color: var(--bluep3);
+}
+
+/*p4*/
+
+.color-blackp4
+{
+    color: var(--blackp4);
+}
+
+.color-aquap4
+{
+    color: var(--aquap4);
+}
+
+.color-magentap4
+{
+    color: var(--magentap4);
+}
+
+.color-pinkp4
+{
+    color: var(--pinkp4);
+}
+
+
+.bg-color-blackp4
+{
+    background-color: var(--blackp4);
+}
+
+.bg-color-white
+{
+    background-color: white;
+}
+
+.bg-color-aquap4
+{
+    background-color: var(--aquap4);
+}
+
+.bg-color-magentap4
+{
+    background-color: var(--magentap4);
+}
+
+.bg-color-pinkp4
+{
+    background-color: var(--pinkp4);
+}
+
+
+.pt-6
+{
+    padding-top: 5em;
+}
+
+.pt-7
+{
+    padding-top: 12em;
+}
+
+
+.h1-modal
+{
+    height: auto;
+}
+
+.h2-modal
+{
+    height: auto;
+}
+
+.h3-modal
+{
+    height: auto;
+}
+
+.mt-s1
+{
+    margin-top: 12em;
+}
+
+/*modals*/
+.modal-nav .nav-link
+{
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.modal-nav .modal-category
+{
+    font-family: 'all-round-gothic', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+.modal-header
+{
+    border:none;
+}
+
+.modal-footer
+{
+    border:none;
+}
+
+
+#modal1 .nav-link:hover 
+{
+    color: var(--indigop1);
+}
+
+#modal2 .nav-link:hover 
+{
+    color: var(--beige);
+}
+
+#modal3 .nav-link:hover 
+{
+    color: var(--beige);
+}
+
+#modal4 .nav-link:hover 
+{
+    color: var(--aquap4);
+}
+
+#modal1 .navbar-nav>.active>a {
+    background-color: var(--pink);
+    color: var(--pinkp1);
+    border-radius: 1em;
+}
+
+#modal2 .navbar-nav>.active>a {
+    background-color: var(--pinkp2);
+    color: var(--violetp2);
+    border-radius: 1em;
+}
+
+#modal3 .navbar-nav>.active>a {
+    background-color: var(--redp3);
+    color: var(--beige);
+    border-radius: 1em;
+}
+
+#modal4 .navbar-nav>.active>a {
+    border: solid 2px var(--magentap4);
+    color: var(--pinkp4);
+    text-shadow: var(--magentap4) 0px 0px 3px;
+    border-radius: 1em;
+    box-shadow: var(--magentap4) 0px 0px 4px;
+}
+
+#modal1 .nav-link 
+{
+   color: var(--pinkp1);
+}
+
+#modal2 .nav-link 
+{
+   color: var(--violetp2);
+}
+
+#modal3 .nav-link 
+{
+   color: var(--beige);
+}
+
+#modal4 .nav-link 
+{
+   color: white;
+}
+
+
+#modal1 .btn-primary
+{
+   background-color: var(--pinkp1);
+   font-family: 'proxima-nova', sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   outline: none;
+   border: none;
+}
+
+#modal2 .btn-primary
+{
+   background-color: var(--pinkp2);
+   font-family: 'proxima-nova', sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   outline: none;
+   border: none;
+}
+
+#modal3 .btn-primary
+{
+   background-color: var(--beige);
+   font-family: 'proxima-nova', sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   outline: none;
+   border: none;
+}
+
+#modal4 .btn-primary
+{
+   background-color: var(--magentap4);
+   font-family: 'proxima-nova', sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   outline: none;
+   border: none;
+}
+
+#modal1 .btn-primary:hover
+{
+   background-color: var(--pink);
+   color:var(--pinkp1);
+   box-shadow: 0px 1px 3px var(--pinkp1);
+}
+
+#modal2 .btn-primary:hover
+{
+   background-color: var(--aquap2);
+   color:var(--beige);
+   box-shadow: 0px 1px 3px var(--pinkp1);
+}
+
+#modal3 .btn-primary:hover
+{
+   background-color: var(--redp3);
+   color:var(--beige);
+   box-shadow: 0px 1px 3px var(--pinkp1);
+}
+
+#modal4 .btn-primary:hover
+{
+   background-color: var(--aquap4);
+   color:white;
+   box-shadow: 0px 1px 3px white;
+}
+
+#modal1 i
+{
+    color: var(--pinkp1);
+    font-size: 1.3em;
+}
+
+#modal2 i
+{
+    color: var(--violetp2);
+    font-size: 1.3em;
+}
+
+#modal3 i
+{
+    color: var(--beige);
+    font-size: 1.3em;
+}
+
+#modal4 i
+{
+    color: var(--pinkp4);
+    font-size: 1.3em;
+    text-shadow: var(--magentap4) 0px 0px 3px;
+}
+
+
+/*modal1*/
+
+
+
+
+
+@media (max-width:576px)
+{
+    .h1-modal
+    {
+        height: 260px;
+    }
+
+}
+
+@media (max-width:1000px)
+{
+    
+/*navbar*/
+
+.primary-nav .nav-link
+{
+    font-size: 1em;
+}
+
+
+.primary-nav .dropdown-menu
+{
+    border-radius: 0.4em;
+}
+
+.secondary-nav
+{
+    border-radius: 2em;
+}
+
+.secondary-nav .nav-link
+{
+    font-size: 0.9em;
+}
+
+
+
+}
+
+@media (max-width:768px)
+{
+
+
+    .section1-p1
+    {
+        background-size: 100%;
+    }
+
+    .h1-modal
+{
+    height: 270px;
+}
+
+.h2-modal
+{
+    height: 401px;
+}
+
+.h3-modal
+{
+    height: 602px;
+}
+
+.section1-p1, .section2-p1, .section3-p1, .section4-p1
+{
+    height: auto !important;
+}
+
+
+    p
+    {
+        font-size: 1em;
+    }
+
+    h2
+    {
+        font-size: 2.5em;
+    }
+
+    h3
+    {
+        font-size: 1.5em;
+    }
+
+    .modal h2
+    {
+        font-size: 1.5em;
+    }
+
+    .modal h3
+    {
+        font-size: 1.2em;
+    }
+
+    .modal p 
+    {
+        font-size: 0.7em;
+    }
+
+
+    .mt-s1
+    {
+        margin-top: 3em;
+    }
+
+    .abecedario
+    {
+        margin-top: 0%;
+    }
+    .notas
+    {
+        margin-top: 0%;
+    }
+
+
+
+    #modal1 i
+{
+    color: var(--pinkp1);
+    font-size: 1em;
+}
+}
+
+/*Breakpoint small*/
+
+@media (max-width:768px)
+{
+    .secondary-nav
+    {
+        border-radius: 1em;
+        background-color: rgba(255, 255, 255, 0);
+        box-shadow: none;
+    }
+    
+    .secondary-nav .nav-link
+    {
+        font-size: 1em; 
+        background-color: var(--yellow);
+        border-radius: 1em;
+        box-shadow: 0px 1px 4px var(--violet);
+    }
+
+    .secondary-nav .nav-link:hover
+    {
+        background-color: var(--magenta);
+        color: var(--purple);
+    }
+
+    .header
+    {
+        height: auto !important;
+    }
+
+
+    .about-section
+    {
+        height: auto !important;
+    }
+
+    .proyects-section1
+    {
+        height: auto !important;
+    }
+
+
+
+
+.project-card-img
+{
+    border-radius: 1em;
+}
+
+.pt-6
+{
+    padding-top: 0%;
+}
+.pt-7
+{
+    padding-top: 0%;
+}
+.cv-section
+{
+    height: auto !important;
+}
+
+.circle-btn
+{
+    border-radius: 100%;
+
+}
+
+.circle-btn i
+{
+  font-size: 1.5em;
+  color: var(--purple);
+}
+
+}
+
+@media (max-width:768px)
+{
+    h2
+    {
+        font-size: 3em;
+    }
+
+    h3
+    {
+        font-size: 2em;
+    }
+
+    p
+    {
+        font-size:1em;
+    }
+}
+
+@media (max-width:1400px)
+{
+    .about-section
+    {
+        height: auto !important;
+    }
+
+    .proyects-section1
+    {
+        height: auto !important;
+    }
+
+    .cv-section
+    {
+        height: auto !important;
+    }
+
+    p
+    {
+        font-size: 0.9em;
+    }
+    .section1-p1, .section2-p1, .section3-p1, .section4-p1
+{
+    height: auto !important;
+}
+
+}
+
+
+@media (max-width:1000px)
+{
+ 
+    .modal h2
+    {
+        font-size: 1.5em;
+    }
+
+    .modal h3
+    {
+        font-size: 1.2em;
+    }
+
+    .modal p 
+    {
+        font-size: 0.8em;
+    }
+    .section1-p1, .section2-p1, .section3-p1, .section4-p1
+{
+    height: auto !important;
+}
+
+.abecedario
+{
+    margin-top: 0%;
+}
+.notas
+{
+    margin-top: 0%;
+}
+}
+
+
+
+
+
+
